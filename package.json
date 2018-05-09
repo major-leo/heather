@@ -1,17 +1,26 @@
 {
-  "name": "heather",
+  "name": "DefinitelyNotBot",
+  "description": "A Discord bot coded in Discord.JS, hosted using Heroku.",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"node index"
-    },
-  "author": "",
-  "license": "ISC",
+    "start": "node index.js"
+  },
   "dependencies": {
-    "discord.io": "^2.5.3",
-    "discord.js": "^11.3.2",
-    "discord.js-commando": "^0.10.0",
-    "winston": "^2.4.2"
+    "discord.js": "11.1.0",
+    "request": "2.81.0"
+  }
+}
+{
+  "name": "DefinitelyNotBot",
+  "description": "A Discord bot coded in Discord.JS, hosted using Heroku.",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "discord.js": "11.1.0",
+    "request": "2.81.0"
   }
 }
