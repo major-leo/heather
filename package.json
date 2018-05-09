@@ -1,17 +1,12 @@
 {
   "name": "heather",
+  "description": "A Discord bot coded in Discord.JS, hosted using Heroku.",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bot.js"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "discord.io": "^2.5.3",
-    "discord.js": "^11.3.2",
-    "discord.js-commando": "^0.10.0",
-    "winston": "^2.4.2"
+    "discord.js": "11.1.0",
+    "request": "2.81.0"
   }
-}
