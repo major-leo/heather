@@ -59,4 +59,4 @@ bot.on("message", function(message){
             message.channel.sendMessage("invalid command");
     }
 });
-bot.login(TOKEN)
+client.login(process.env.BOT_TOKEN)
